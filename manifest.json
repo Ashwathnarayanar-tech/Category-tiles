@@ -1,0 +1,23 @@
+{
+  "vendor": "echidna",
+  "name": "category-tiles",
+  "version": "0.0.1",
+  "title": "Category Tiles",
+  "description": "Shows sub-category tiles of the selected category.",
+  "builders": {
+    "react": "3.x",
+    "messages": "1.x",
+    "docs": "0.x",
+    "styles": "2.x",
+    "store": "0.x",
+    "sitemap": "0.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
