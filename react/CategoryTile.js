@@ -3,18 +3,19 @@ import styles from "./index.css";
 
 
 const CategoryTile = (props) => {
-    const category = props.categoryObj;
+    const categoryName = props.categoryName;
+    const categoryUrl = props.categoryUrl;
     const imgUrl = props.imgUrl;
 
     return (
         <div className={styles.catContainer}>
             <img
                 src={`${imgUrl}`}
-                alt={category.name + " Banner Image"}
+                alt={categoryName + " Banner Image"}
                 className={styles.imgSize}
             />
-            <a href={category.url} title={category.name} className={styles.imgName}>
-                {category.name}
+            <a href={categoryUrl} title={categoryName} className={styles.imgName}>
+                {categoryName}
             </a>
         </div>
     );

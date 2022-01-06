@@ -1,7 +1,7 @@
 {
   "vendor": "echidna",
   "name": "category-tiles",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "title": "Category Tiles",
   "description": "Shows sub-category tiles of the selected category.",
   "builders": {
