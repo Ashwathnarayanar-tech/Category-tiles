@@ -4,11 +4,16 @@
 This app will add a category detail tile, with catgeory **banner image** (*fetched from CMS master data*), **Category Name** and **Category Url**.
 
 ## Mandatory Parameters: ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red)
-| Param Name     |  Code | 
-| -------------- | ----------- | 
-|Category Name|` "categoryName" `|
-|Category Url|` "categoryUrl" `|
-|Image Url Path|` "imgUrl" `|
+| Param Name     |  Code | Description|
+| -------------- | ----------- | ----------- |
+|Category Name|` "categoryName" `| Renders the name of the category |
+|Category Url|` "categoryUrl" `| Adds the category url in Banner CTA |
+|Image Url Path|` "imgUrl" `| Path of the category banner image |
+
+## Optional Parameters:
+| Param Name     |  Code | Description|
+| -------------- | ----------- | ----------- | 
+|Category Name|` "btnIconClass" `| You can use predefined icon id names from [this link](https://github.com/vtex-apps/store-icons/blob/cbbb1b82bfca247a811d146b1e2cafb642db1928/docs/ICONPACK.md) |
 
 ## Steps to add:
 There are two ways to add this app, one from json block and one calling from react component using json block props. Below we have mentioned both the ways.
