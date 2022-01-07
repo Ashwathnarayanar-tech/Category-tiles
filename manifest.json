@@ -1,7 +1,7 @@
 {
   "vendor": "echidna",
   "name": "category-tiles",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "title": "Category Tiles",
   "description": "Shows sub-category tiles of the selected category.",
   "builders": {
@@ -13,7 +13,8 @@
     "sitemap": "0.x"
   },
   "dependencies": {
-    "vtex.styleguide": "9.x"
+    "vtex.styleguide": "9.x",
+    "vtex.store-icons": "0.x"
   },
   "registries": [
     "smartcheckout"
